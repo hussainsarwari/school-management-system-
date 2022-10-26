@@ -1,0 +1,71 @@
+div.second_part{
+    width: 100%;
+    bottom: 400px;
+}
+
+#management{
+    width: 60% !important;
+    display: flex !important;
+    margin: auto !important;
+
+}
+div#management h1{
+    
+    text-align: center;
+    height: 40px;
+    font-size: 1.5em;
+    margin: 20px auto;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+div#management p{
+ text-align: justify;
+    top: -20px;
+}
+div#management span{
+    
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.8vw;
+    padding: 10px 0 0 0;
+}
+div#management span:hover{
+    background-color: #333;
+    color: #e3e0e0;
+    border-radius: 0 0 10px 0;
+}
+.questions{
+    font-size: 2.3vw;
+    width: 100%;
+    position: relative;
+    top: 140px;
+    font-family: sans-serif;
+}
+.questions:first-child{
+border-radius: 10px 10px 0 0;
+}
+.questions div{
+    cursor: pointer;
+    height: 50px;
+    width: 70%;
+    background: #e3e0e0;
+    margin: auto;
+    transition: all 0.1s;
+    text-align: center;
+    padding: 10px 0 0px 0;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.398);
+}
+.questions div:hover{
+    background-color: #333;
+    color: #e3e0e0;
+}
+.questions span{
+    padding: 20px;
+    font-size: 1.9vw;
+    background: #e9e9e9;
+    width: 67%;
+    display: none;
+    text-align: justify;
+    margin: auto;
+}

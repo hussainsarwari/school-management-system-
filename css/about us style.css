@@ -1,0 +1,8 @@
+div.main img{
+    border-radius: 100%;
+    width: 25%;
+    position: absolute;
+    box-shadow: -1px -1px 20px #0000007a;
+    left: 40%;
+    top: 20%;
+}
